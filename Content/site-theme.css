@@ -7,16 +7,16 @@
 
 .top-bar{
     height: 7em;
-    background-color: #1B1B1F;
+    background: linear-gradient(#222225, #1B1B1F);
     margin: 0px;
     padding: 0px;
 }
 
 .accent-box{
-    margin-left: 7em;
     height: 7em;
     background: linear-gradient(to right, #3EB1FA 0%, #389FE0 50%,#389FE0 50%, #3EB1FA 100%);
     width: 2em;
+    margin-left: 7em;
 }
 
 .thin-color{
@@ -35,4 +35,16 @@
 .content-body{
     margin-left: 16em;
     font-family: 'Playfair Display', serif;
+}
+
+.icon-box{
+    width: 7em;
+    height: 7em;
+    float: left;
+}
+
+.fa{
+    float: left;
+    margin-left: .5em;
+    margin-top: .5em;
 }
