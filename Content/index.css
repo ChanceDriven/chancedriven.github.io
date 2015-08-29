@@ -20,3 +20,7 @@
     min-height: 100vh;
     overflow: auto;
 }
+
+ .events-main-title{
+    font-family: 'Slabo 27px', serif;
+}

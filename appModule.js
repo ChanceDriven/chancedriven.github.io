@@ -14,7 +14,7 @@ angular.module('app').controller('appController', ['$scope', '$location', functi
     };
 
     $scope.showThird = function () {
-        $location.url('/third');
+        $location.url('/events');
     };
 }]);
 
@@ -38,9 +38,9 @@ angular.module('app').config(['$routeProvider', function ($routeProvider) {
             }
         },
         {
-            url: '/third',
+            url: '/events',
             config: {
-                templateUrl: 'third.html',
+                templateUrl: 'Templates/events.html',
                 controller: 'appController'
             }
         }
