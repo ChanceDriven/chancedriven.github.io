@@ -94,6 +94,7 @@
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="second.html" />
+    <Content Include="Templates\events.html" />
     <Content Include="third.html" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
