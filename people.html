@@ -1,0 +1,23 @@
+﻿<form name="addPerson">
+    <fieldset>
+        First Name:<br />
+        <input type="text" name="firstName"><br />
+        Last Name:<br />
+        <input type="text" name="lastName"><br />
+        Date of Birth:<br />
+        Month: <input type="number" name="month" min="1" max="12" maxlength="2" /><br />
+        Day: <input type="number" name="day" min="1" max="31" maxlength="2" /><br />
+        Year: <input type="number" name="year" min="1900" max="2200" maxlength="4" /><br />
+        Gender:<br />
+        <input type="radio" name="sex" value="male" checked>Male<br />
+        <input type="radio" name="sex" value="female">Female<br />
+        Relation to Person:<br />
+        <select name="relationship">
+            <option value="family">Family</option>
+            <option value="friend">Friend</option>
+        </select><br />
+        This person is my:<br />
+        <input type="text" name="howRelated" />
+        <input type="submit" value="Submit">
+    </fieldset>
+</form> 
