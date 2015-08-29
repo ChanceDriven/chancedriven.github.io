@@ -5,15 +5,15 @@ var mod = angular.module('app', ['ngRoute']);
 /* controller */
 
 angular.module('app').controller('appController', ['$scope', '$location', function ($scope, $location) {
-    $scope.showFirst = function () {
-        $location.url('/first');
+    $scope.showAbout = function () {
+        $location.url('/about');
     };
 
-    $scope.showSecond = function () {
-        $location.url('/second');
+    $scope.showPeople = function () {
+        $location.url('/people');
     };
 
-    $scope.showThird = function () {
+    $scope.showEvents = function () {
         $location.url('/events');
     };
 }]);
@@ -24,16 +24,16 @@ angular.module('app').config(['$routeProvider', function ($routeProvider) {
 
     var routes = [
         {
-            url: '/first',
+            url: '/about',
             config: {
-                templateUrl: 'first.html',
+                templateUrl: 'Templates/aboutus.html',
                 controller: 'appController'
             }
         },
         {
-            url: '/second',
+            url: '/people',
             config: {
-                templateUrl: 'second.html',
+                templateUrl: 'Templates/people.html',
                 controller: 'appController'
             }
         },
@@ -50,5 +50,5 @@ angular.module('app').config(['$routeProvider', function ($routeProvider) {
         $routeProvider.when(route.url, route.config)
     });
 
-    $routeProvider.otherwise({ redirectTo: '/first', controller: 'appController' });
+    $routeProvider.otherwise({ redirectTo: '/about', controller: 'appController' });
 }]);
