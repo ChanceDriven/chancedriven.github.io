@@ -1,29 +1,33 @@
 ﻿<!DOCTYPE html>
-<html>
-<head>
-    <title>ChanceDriven's Demo</title>
-    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
-    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
-    <link href="Content/font-awesome.min.css" rel="stylesheet" />
-    <link href="Content/site-theme.css" rel="stylesheet" />
-</head>
-<body>
-    <div class="container-fluid top-bar">
-        <div class="container-fluid icon-box">
-            <i class="fa fa-fighter-jet fa-3x"></i>
-            <div class="accent-box"></div>
+<html ng-app ="app">
+    <head>
+        <title>Route Test</title>
+        <link href="Content/bootstrap.min.css" rel="stylesheet" />
+        <script src="Scripts/angular.min.js"></script>
+        <script src="Scripts/angular-route.min.js"></script>
+        <link href="Content/index.css" rel="stylesheet" />
+        <script src="appModule.js"></script>
+
+
+    </head>
+    <body ng-controller="appController">
+        <div class="container-fluid top-bar">
+            <div class="row">
+                <div class="col-sm-2"><h1>Vag</h1></div>
+
+                <div class="col-sm-2">
+                    <button class="btn btn-primary" ng-click="showFirst()">First</button>
+                </div>
+
+                <div class="col-sm-2">
+                    <button class="btn btn-primary" ng-click="showSecond()">Second</button>
+                </div>
+
+                <div class="col-sm-2">
+                    <button class="btn btn-primary" ng-click="showThird()">Third</button>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div class="container-fluid thin-color">
-    </div>
-
-    <div class="my-menu">
-    </div>
-
-    <div class="container-fluid content-body">
-        <h1>Eat a dick, fuckers</h1>
-    </div>
-
-</body>
+        <div ng-view class="full-view"></div>
+    </body>
 </html>

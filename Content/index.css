@@ -1,0 +1,22 @@
+﻿body {
+    margin: 0px;
+}
+
+.top-bar{
+    background-color: #ccc;
+    height: 100px;
+}
+
+.bar-area{
+    display: inline-block;
+}
+
+.btn{
+    margin-top: 20px;
+}
+.full-view{
+    padding: 20px;
+    background-color: #666;
+    min-height: 100vh;
+    overflow: auto;
+}

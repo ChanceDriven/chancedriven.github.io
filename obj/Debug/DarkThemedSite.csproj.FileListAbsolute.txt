@@ -1,6 +1,0 @@
-C:\Development\GithubIO\chancedriven.github.io\bin\DarkThemedSite.dll.config
-C:\Development\GithubIO\chancedriven.github.io\bin\DarkThemedSite.dll
-C:\Development\GithubIO\chancedriven.github.io\bin\DarkThemedSite.pdb
-C:\Development\GithubIO\chancedriven.github.io\obj\Debug\DarkThemedSite.csprojResolveAssemblyReference.cache
-C:\Development\GithubIO\chancedriven.github.io\obj\Debug\DarkThemedSite.dll
-C:\Development\GithubIO\chancedriven.github.io\obj\Debug\DarkThemedSite.pdb
